@@ -1,17 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<meta charset=utf-8">
+<meta charset"utf-8"/>
 
 <head>
+<title>Primeira Página</title>
+<style> 
+
+h1 {
+font: tahoma;
+color:red;
+font-size: 50pt;
+text-weight: bold;
+}
+
+h2 {
+color:blue;
+font-size: 30pt;
+text-weight: bold;
+}
+</style> 
 
 </head>
 
 <body>
-<h1 style="text-align:center;">Bem vindo à minha página!</h1>
-<p style="text-aling:center;">Meu nome é Matheus, e esta página foi criada para testes iniciais.</p>
+<h1 style="text-align:center;" >Bem vindo à minha página!</h1>
 <center>
+<h2 id="h1" style="text-aling:center;">Meu nome é Matheus, e esta página foi criada para testes.</h2>
+
 <a href="https://github.com/matheusmelo995/matheusmelo.git" target="_blank">
-<img src="desktop/programador.jpg">
+<img src="programador.jpg">
 </a>
 </center>
 </body>
